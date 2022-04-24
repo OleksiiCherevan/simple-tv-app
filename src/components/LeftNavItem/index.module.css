@@ -1,0 +1,38 @@
+.item {
+    cursor: pointer;
+    
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* F9F9F9 */
+
+    color: var(--color-font);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.text {
+}
+
+.item:hover {
+    border-right: var(--color-primary) solid 2px;
+}
+
+.item:hover .icon {
+    filter: invert(52%) sepia(94%) saturate(2282%) hue-rotate(140deg) brightness(96%) contrast(101%);
+}
+
+.item:hover .text{
+    color: var(--color-primary);
+}

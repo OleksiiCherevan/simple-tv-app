@@ -1,0 +1,20 @@
+.bar-with-label {
+}
+
+.text {
+
+    margin-bottom: 20px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* low op Titles */
+
+    color: rgba(249, 249, 249, 0.67);
+}
