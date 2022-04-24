@@ -1,0 +1,59 @@
+.app {
+
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  max-width: 250px;
+  width: 100%;
+  padding-left: 38px;
+  padding-bottom: 50px;
+  background-color: var(--color-black);
+}
+
+.logo {
+  height: 165px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.left-nav-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.right-side {
+  width: 100%;
+  max-width: 350px;
+  background-color: var(--color-black);
+}
+
+
+.main {
+  width: 100%;
+  background-color: var(--color-extra-black);
+  padding: 0 68px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.control {
+}
+
+
+.carousele {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
