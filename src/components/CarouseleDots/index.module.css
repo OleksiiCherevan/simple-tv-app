@@ -1,0 +1,24 @@
+.dots {
+    padding: 8px 12px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: rgba(249, 249, 249, 0.2);
+    backdrop-filter: blur(10px);
+
+    border-radius: 5px;
+}
+
+.dot {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--color-font);
+}
+
+.selected-dot {
+    background-color: var(--color-primary);
+}
