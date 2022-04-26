@@ -1,24 +1,21 @@
-import crown from "./../assets/images/crown.jpg"
-
+import crown from "./../assets/images/crown.jpg";
+import loki from "./../assets/images/loki.jpg";
+import supernatural from "./../assets/images/supernatural.jpg";
 
 export const shows = {
     shows: [
         {
-            text: 'The crown',
+            text: "The crown",
             img: crown,
-
-        }, 
+        },
         {
-            text: 'Oliver',
-            img: crown,
+            text: "Loki",
+            img: loki,
+        },
 
-        }, 
-        
         {
-            text: 'Gray',
-            img: crown,
-
-        }, 
-        
-    ]
-}
+            text: "Supernatural",
+            img: supernatural,
+        },
+    ],
+};
