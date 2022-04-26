@@ -1,0 +1,40 @@
+.search {
+    margin-bottom: 13px;
+    box-sizing: border-box;
+    width: 275px;
+    padding: 14px 22px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid rgb(249, 249, 249, 0.1);
+    border-radius: 10px;
+    background-color: var(--color-black);
+}
+
+.icon {
+    height: 21px;
+    width: 21px;
+}
+
+.input {
+    width: 156px;
+    background-color: transparent;
+    /* flex: auto; */
+    border: none;
+
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.8673px;
+    line-height: 100%;
+
+    color: rgba(249, 249, 249, 0.67);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.filter {
+}
