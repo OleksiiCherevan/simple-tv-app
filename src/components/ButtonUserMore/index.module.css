@@ -1,0 +1,26 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14.1043px;
+    line-height: 100%;
+    color: var(--color-font)
+}
+
+.btn-icon {
+    
+}
+
+.user-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 13px;
+}
+
+
