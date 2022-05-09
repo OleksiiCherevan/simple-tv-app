@@ -14,7 +14,7 @@ const CardFilmBig = (props) => {
         img = loki,
         rate = 4.5,
         episodes = 8,
-        ganre = "Superhero",
+        genre = "Superhero",
         url,
     } = props;
     return (
@@ -32,7 +32,7 @@ const CardFilmBig = (props) => {
             <div className={style["bottom"]}>
                 <div className={style["description"]}>
                     <div className={style["episoded"]}>{episodes} Ep</div>
-                    <div className={style["ganre"]}>{ganre}</div>
+                    <div className={style["ganre"]}>{genre}</div>
                 </div>
 
                 <div className={style["buttons"]}>
