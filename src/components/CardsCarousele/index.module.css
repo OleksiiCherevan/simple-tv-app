@@ -1,0 +1,52 @@
+.carousele {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26.4455px;
+    line-height: 100%;
+
+    color: var(--color-font);
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.text {
+    padding-right: 18px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21.1564px;
+    line-height: 100%;
+    color: var(--color-font);
+}
+
+.buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.more {
+    flex: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 9px;
+
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.2228px;
+    line-height: 100%;
+    color: rgba(249, 249, 249, 0.67);;
+}
+
+.button-right-small {
+    height: 10px;
+    width: 8px;
+}
